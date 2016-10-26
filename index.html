@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script  src="calc.js"></script>
+	<style type="text/css">
+		.box{
+			height: 80px;
+			width: 80px;
+			background-color: white;
+		}
+		.no{
+			font-size: x-large;
+		}
+		#display{
+			width:326px;
+			height: 30px;
+			text-align:right;
+			margin: auto;
+		}
+		.container{
+			border:2px solid red;
+			width:332px;
+			height:356px;
+			margin:auto;
+		}
+		button::-moz-focus-inner { border: 0; }
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<input type="textbox" id="display"></input>
+		<button class="box" onclick="dis(1)"><span class="no">1</span></button>
+		<button class="box" onclick="dis(2)"><span class="no">2</span></button>
+		<button class="box" onclick="dis(3)"><span class="no">3</span></button>
+		<button class="box" onclick="add()"><span class="no">+</span></button>
+		<button class="box" onclick="dis(4)"><span class="no">4</span></button>
+		<button class="box" onclick="dis(5)"><span class="no">5</span></button>
+		<button class="box" onclick="dis(6)"><span class="no">6</span></button>
+		<button class="box" onclick="subtract()"><span class="no">-</span></button>
+		<button class="box" onclick="dis(7)"><span class="no">7</span></button>
+		<button class="box" onclick="dis(8)"><span class="no">8</span></button>
+		<button class="box" onclick="dis(9)"><span class="no">9</span></button>
+		<button class="box" onclick="multiply()"><span class="no">*</span></button>
+		<button class="box" onclick="clear_display()"><span class="no">AC</span></button>
+		<button class="box" onclick="dis(0)"><span class="no">0</span></button>
+		<button class="box" onclick="get_result()"><span class="no">=</span></button>
+		<button class="box" onclick="divide()"><span class="no">/</span></button>
+	</div>
+	<script>
+		
+	</script>
+
+</body>
+</html>
